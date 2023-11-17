@@ -14,19 +14,17 @@ header {
 }
 
 .header-tagline {
-    font-family: 'Open Sans', Arial, sans-serif;
-    color: #ffffff; /* Keep the text white for now */
+    font-family: 'Bebas Neue', Arial, sans-serif; /* New retro-style font */
+    color: #ffffff; /* Keep the text white */
     font-size: 24px;
-    font-weight: 400; /* Slightly bolder text */
+    font-weight: normal; /* This font is naturally bold */
     text-shadow: 
-        2px 2px 4px rgba(0, 0, 0, 0.5), /* Text shadow for contrast */
-        -2px -2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow on opposite sides for depth */
+        2px 2px 4px rgba(0, 0, 0, 0.7); /* Adjusted text shadow for better readability */
     margin-top: 10px;
-    padding: 0 10px; /* Add padding if using a background */
-    /* Optional: Uncomment the next line to add a semi-transparent background to the text for better contrast */
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    display: inline-block; /* If using a background, this makes the background only as wide as the text */
-    border-radius: 5px; /* If using a background, this rounds the corners */
+    /* background-color: rgba(0, 0, 0, 0.5); */ /* Optional: Uncomment for background */
+    padding: 5px 10px; /* Padding for background if used */
+    border-radius: 4px; /* Border-radius for background if used */
+    display: inline-block; /* Needed if using background */
 }
 
 h1 {
