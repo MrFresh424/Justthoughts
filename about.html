@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me - JustThoughts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Curtain Menu -->
+    <div id="curtainMenu" class="curtain-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://www.youtube.com">YouTube</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Menu Icon to open the Curtain Menu -->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <div class="content">
+        <h2>Hello my friends, </h2>
+        <p>I'm a stupid guy but i try my best, hopefully one day I will do something cool.</p>
+        <!-- Include more personal details, images, and other information as needed -->
+    </div>
+    <!-- You can add more sections as needed -->
+
+    <script>
+        function openNav() {
+            document.getElementById("curtainMenu").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("curtainMenu").style.width = "0";
+        }
+    </script>
+</body>
+</html>

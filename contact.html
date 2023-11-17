@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - JustThoughts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="curtain-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://www.youtube.com">YouTube</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <div class="content">
+        <h2>Get in Touch</h2>
+        <p>Do you have questions, comments, or just want to say hello? Well, <strong>PLEASE DON'T ACTUALLY CONTACT ME!!!</strong> This is just a meme. 😄</p>
+    </div>
+
+    <script>
+        function openNav() {
+            document.querySelector(".curtain-menu").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.querySelector(".curtain-menu").style.width = "0";
+        }
+    </script>
+</body>
+</html>

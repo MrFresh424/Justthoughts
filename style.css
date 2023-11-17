@@ -1,0 +1,100 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/pefa1/Desktop/Hemsida/back.jpg'); /* Make sure this path is correct */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-tagline {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 230px;
+    color: #fff;
+    text-shadow: 4px 4px 14px rgba(10, 10, 10, 0.8); /* Stronger text shadow for contrast */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.curtain-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(10, 24, 39, 0.95); /* Updated color for curtain menu */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.curtain-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.curtain-menu ul li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #a8bfc9; /* Updated text color for curtain menu items */
+    display: block;
+    transition: 0.3s;
+}
+
+.curtain-menu ul li a:hover {
+    color: #ffcc00; /* Updated color for hover state */
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 50px;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.content h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.content p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+nav ul li a {
+    background-color: #2a5a6c; /* Updated color for nav menu items */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0; /* Light color for hover */
+    color: #333; /* Dark text color for contrast on hover */
+    transform: translateY(-2px);
+}
