@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('C:/Users/pefa1/Desktop/Hemsida/back.jpg'); /* Make sure this path is correct */
+    background-image: url('back.jpg'); /* Make sure this path is correct */
     background-size: cover;
     background-attachment: fixed;
     color: #333;
