@@ -15,10 +15,18 @@ header {
 
 .header-tagline {
     font-family: 'Open Sans', Arial, sans-serif;
-    color: #f0f0f0;
+    color: #ffffff; /* Keep the text white for now */
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400; /* Slightly bolder text */
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.5), /* Text shadow for contrast */
+        -2px -2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow on opposite sides for depth */
     margin-top: 10px;
+    padding: 0 10px; /* Add padding if using a background */
+    /* Optional: Uncomment the next line to add a semi-transparent background to the text for better contrast */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    display: inline-block; /* If using a background, this makes the background only as wide as the text */
+    border-radius: 5px; /* If using a background, this rounds the corners */
 }
 
 h1 {
