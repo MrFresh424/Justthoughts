@@ -28,16 +28,15 @@ header {
 }
 
 h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 230px; /* Adjust as needed */
-    color: #ffffff; /* White color for the text */
-    -webkit-text-stroke: 0.5px black; /* Thinner outline effect */
-    text-shadow:
-        2px 2px 0 #000, /* Horizontal shadow */
-        -1px -1px 0 #000, /* Top-left shadow */
-        1px -1px 0 #000, /* Top-right shadow */
-        -1px 1px 0 #000, /* Bottom-left shadow */
-        1px 1px 0 #000; /* Bottom-right shadow */
+    font-family: 'Orbitron', sans-serif; /* New high-tech retro font */
+    font-size: 230px; /* Adjust size as needed */
+    color: #fff;
+    text-shadow: 
+        3px 3px 0 #000, /* Multiple shadows for a neon-like effect */
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
     margin-bottom: 20px;
 }
 
