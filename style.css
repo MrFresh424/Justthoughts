@@ -14,18 +14,15 @@ header {
 }
 
 .header-tagline {
-    font-family: 'Bebas Neue', Arial, sans-serif; /* New retro-style font */
-    color: #ffffff; /* Keep the text white */
-    font-size: 24px;
-    font-weight: normal; /* This font is naturally bold */
-    text-shadow: 
-        2px 2px 4px rgba(0, 0, 0, 0.7); /* Adjusted text shadow for better readability */
+    font-family: 'Orbitron', sans-serif; /* Use the same font family for consistency */
+    color: #ffffff; /* Keep the text white for contrast */
+    font-weight: 400; /* Lighter weight than the header */
+    font-size: 20px; /* Smaller size than the header */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle text shadow for readability */
     margin-top: 10px;
-    /* background-color: rgba(0, 0, 0, 0.5); */ /* Optional: Uncomment for background */
-    padding: 5px 10px; /* Padding for background if used */
-    border-radius: 4px; /* Border-radius for background if used */
-    display: inline-block; /* Needed if using background */
+    opacity: 0.8; /* Slightly transparent for a softer appearance */
 }
+
 
 h1 {
     font-family: 'Orbitron', sans-serif; /* New high-tech retro font */
